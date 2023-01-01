@@ -18,7 +18,7 @@ bool wordPattern(string pattern, string s) {
         }
     }
     
-    word.push_back(temp);                // push last string in vector
+    word.push_back(temp);                
     
     if(word.size()!=pattern.size())
     {
